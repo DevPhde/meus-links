@@ -1,7 +1,6 @@
 import "./App.css"
 import linkedinImage from "./assets/linkedin.png"
 import githubImage from "./assets/github.png"
-import downloadImage from "./assets/download.png"
 function App() {
   const handleDownload = () => {
     fetch('/cv.pdf')
